@@ -18,6 +18,10 @@ Create a Spring boot project using Maven as build tool in IntelliJ Community Edi
 
 How to Run the Web Application
 ----------------------------
-1. 
+1. Run the class `Application` and go to browser and navigate to http://localhost:8080/
+![SpringBoot](https://github.com/priya006/SpringBootWebApp/blob/master/SpringbootWebApp.png)
+2. Run the curl command curl localhost:8080 to see the response from the WebService
+
+
 
 
