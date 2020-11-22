@@ -22,6 +22,7 @@ How to Run the Web Application
 ![SpringBoot](https://github.com/priya006/SpringBootWebApp/blob/master/SpringbootWebApp.png)
 2. Run the curl command curl localhost:8080 to see the response from the WebService
 
-
-
+How to Run the  Test
+------------------------
+1. Run the class 
 
