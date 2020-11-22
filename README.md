@@ -20,7 +20,7 @@ How to Run the Web Application
 ----------------------------
 1. Run the class `Application` and go to browser and navigate to http://localhost:8080/
 ![SpringBoot](https://github.com/priya006/SpringBootWebApp/blob/master/SpringbootWebApp.png)
-2. Run the curl command curl localhost:8080 to see the response from the WebService
+2. Run the curl command `curl localhost:8080` to see the response from the WebService
 
 How to Run the Unit Test
 ------------------------
@@ -33,8 +33,8 @@ Curl commands to fire when the application is running
   - Add the dependency `spring-boot-starter-actuator` to pom.xml file
   - Add application.properties file in the path `src/main/resources`
 
-1. Start the application and run the curl command curl localhost:8080/actuator/health
-2. Shut down the web application execute the command curl -X POST localhost:8080/actuator/shutdown
+1. Start the application and run the curl command `curl localhost:8080/actuator/health`
+2. Shut down the web application execute the command `curl -X POST localhost:8080/actuator/shutdown`
  
 How to enable other Endpoints
 -----------------------------
