@@ -36,4 +36,13 @@ Curl commands to fire when the application is running
 1. Start the application and run the curl command curl localhost:8080/actuator/health
 2. Shut down the web application execute the command curl -X POST localhost:8080/actuator/shutdown
  
+How to enable other Endpoints
+-----------------------------
+1. I tried to enable `/actuator/beans` endpoint. Added a line `management.endpoints.web.exposure.include=beans` in `application.properties` file
+2. Ran the webservice application.
+3. Hit the api with the curl command `curl localhost:8080/actuator/beans`
+![Beans](https://github.com/priya006/SpringBootWebApp/blob/master/SpringBoot_Beans.png)
 
+---------------------------------------------------------------------------------------------------
+## Reference
+[Exposing Endpoints](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-endpoints-exposing-endpoints)
